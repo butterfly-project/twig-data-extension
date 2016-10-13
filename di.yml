@@ -1,0 +1,5 @@
+services:
+  bfy.twig_extension.data:
+    class: 'Butterfly\Component\TwigDataExtension\TwigDataExtension'
+    arguments: ['@service_container']
+    tags: ['bfy_adapter.twig.extensions']

@@ -1,0 +1,26 @@
+{
+    "name": "butterfly/twig-data-extension",
+    "type": "library",
+    "description": "Butterfly PHP. Twig Data Extension",
+    "keywords": ["Twig"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Component\\TwigDataExtension\\": "src/",
+            "Butterfly\\Component\\TwigDataExtension\\Tests\\": "tests/unit/"
+        }
+    }
+}
